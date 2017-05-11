@@ -2,7 +2,8 @@
 
 enemy::enemy()
 {
-	rect.setSize(sf::Vector2f(50.0f, 50.0f));
+	rect.setSize(sf::Vector2f(20.0f, 20.0f));
+	//rect.setSize(sf::Vector2f(50.0f, 50.0f));
 	rect.setPosition(360.0f, 240.0f);
 	sprite.setTextureRect(sf::IntRect((spritex * counterWalking) + spritexStart, spritey * 0 + spriteyStart, spritex, spritey));
 
