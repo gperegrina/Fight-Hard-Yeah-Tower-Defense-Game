@@ -6,7 +6,7 @@ class enemy
 {
 public:
 	//float movementSpeed = 0.5; //slower
-	int movementSpeed = 2;
+	int movementSpeed = 4; //2
 	int movementLength = 50; //100 move shorter
 	int attackDamage = 1;
 	//////Miguel
