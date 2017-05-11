@@ -2,7 +2,6 @@
 
 Audio::Audio()
 {
-
 	//Initializing Background Music
 	//Not needed since using sf::Music now...
 	/*
@@ -31,11 +30,10 @@ Audio::Audio()
 	gunPickupSound.setVolume(80);
 
 	//Loading in sound for Background Music
-	if (!backgroundmusic1.openFromFile("Punks.wav"))
+	if (!backgroundmusic1.openFromFile("silent_hill.wav"))
 		std::cout << "Unable to load Music" << std::endl;
 
 }
-
 
 Audio::~Audio()
 {

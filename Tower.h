@@ -15,10 +15,7 @@ public:
 	int tower2bullets = 10;
 	int tower3bullets = 15;
 
-
 private:
-
-
 
 };
 

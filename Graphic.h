@@ -30,9 +30,11 @@ public:
 	//Southeast background
 	sf::RectangleShape background7;
 	sf::Texture backgroundImage7;
-	sf::RectangleShape backgroundTree;
+	//Miguel Tree
+	sf::RectangleShape backgroundTree, backgroundTree2, backgroundTree3,
+		backgroundTree4, backgroundTree5, backgroundTree6, backgroundTree7,
+		backgroundTree8;
 	sf::Texture treeTexture;
-
 
 	//ExitTop image
 	sf::RectangleShape backgroundExitTop;
@@ -50,11 +52,9 @@ public:
 	sf::Texture towertex2;
 	sf::Texture towertex3;
 
-
 	//-----Shaded---------------//
 	sf::RectangleShape playerShade;
 	sf::Texture playerShadeTexture;
-
 
 	//-----Menu-----------------//
 	sf::RectangleShape menuImage;

@@ -27,6 +27,5 @@ public:
 
 	sf::Music backgroundmusic1;
 
-
 };
 

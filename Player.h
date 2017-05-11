@@ -37,7 +37,7 @@ public:
 	int dead = 0;
 	int ammo = 3;
 	int tower = 3;
-	
+	int score = 0;
 	//Gerardo 4/15 
 	//Individual Towers
 	int tower1 = 0;
