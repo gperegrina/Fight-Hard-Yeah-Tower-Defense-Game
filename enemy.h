@@ -20,8 +20,8 @@ public:
 
 //5/10 hp1 not exists?
 	//----------------------------- Add on 03/23 for projectile
-	int hp1 = 3, hp2 = 2, hp3 = 1;
-	int maxhp1 = 3, maxhp2 = 2, maxhp3 = 1;
+	int hp1 = 10, hp2 = 2, hp3 = 1;
+	int maxhp1 = 10, maxhp2 = 2, maxhp3 = 1;
 	bool alive = true;
 
 	// Add for collision with wall
