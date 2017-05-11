@@ -10,6 +10,7 @@ public:
 	bool resource4 = false;
 	bool resource5 = false;
 	bool resource6 = false;
+	bool resource7 = false;
 	bool gathered = false;
 
 	sf::RectangleShape rect;
