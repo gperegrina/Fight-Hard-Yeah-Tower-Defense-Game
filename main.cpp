@@ -593,101 +593,84 @@ int main() {
 	//-------------------------------------------------------------------------------------------------------------------------
 
 	// West Left map enemies - 3 enemies 
-	//text
+	
+	/*  reduce number enmey
 	enemy3.sprite.setTexture(textureEnemy3);
-	enemy3.text.setFont(font);
+	enemy3.text.setFont(font);  
 	enemy3.text.setCharacterSize(15);
 	enemy3.text.setFillColor(sf::Color::Red);
-	enemy3.rect.setPosition(-300, 500);
+	enemy3.rect.setPosition(-300, 500); 
 	enemy3.spritexStart = 32 * 4;
 	enemy3.spriteyStart = 32 * 0;
 	enemyArray3.push_back(enemy3); // enemy type 3
-
+	*/
 	enemy3.sprite.setTexture(textureEnemy3);
-	enemy3.text.setFont(font);
+	enemy3.text.setFont(font);  
 	enemy3.text.setCharacterSize(15);
-	enemy3.text.setFillColor(sf::Color::Red);
+	enemy3.text.setFillColor(sf::Color::White);
 	enemy3.rect.setPosition(-400, 700);
 	enemy3.spritexStart = 32 * 4;
 	enemy3.spriteyStart = 32 * 0;
 	enemyArray3.push_back(enemy3); // enemy type 3
 
 	enemy3.sprite.setTexture(textureEnemy3);
-	enemy3.text.setFont(font);
+	enemy3.text.setFont(font);  
 	enemy3.text.setCharacterSize(15);
-	enemy3.text.setFillColor(sf::Color::Red);
+	enemy3.text.setFillColor(sf::Color::White);
 	enemy3.rect.setPosition(-500, 600);
 	enemy3.spritexStart = 32 * 4;
 	enemy3.spriteyStart = 32 * 0;
 	enemyArray3.push_back(enemy3); // enemy type 3
-
-
-								   // South Bottom map enemies - 2 enemy
+		 
+	// South Bottom map enemies - 2 enemy
+	
+	/* reduce number enemy
 	enemy2.sprite.setTexture(textureEnemy2);
-	enemy2.text.setFont(font);
+	enemy2.text.setFont(font);  
 	enemy2.text.setCharacterSize(15);
 	enemy2.text.setFillColor(sf::Color::Red);
 	enemy2.rect.setPosition(700, 800);
 	enemy2.spritexStart = 32 * 7;
 	enemy2.spriteyStart = 32 * 0;
 	enemyArray2.push_back(enemy2); // enemy type 2
+	*/
 
 	enemy2.sprite.setTexture(textureEnemy2);
-	enemy2.text.setFont(font);
+	enemy2.text.setFont(font);  
 	enemy2.text.setCharacterSize(15);
-	enemy2.text.setFillColor(sf::Color::Red);
+	enemy2.text.setFillColor(sf::Color::White);
 	enemy2.rect.setPosition(600, 700);
 	enemy2.spritexStart = 32 * 7;
 	enemy2.spriteyStart = 32 * 0;
 	enemyArray2.push_back(enemy2); // enemy type 2
 
 
-
-
-								   // East Right map enemies - 4 enemies
+	
+	// East Right map enemies - 4 enemies
+	/* reduce number enemy
 	enemy1.sprite.setTexture(textureEnemy);
-	enemy1.text.setFont(font);
+	enemy1.text.setFont(font);  
 	enemy1.text.setCharacterSize(15);
 	enemy1.text.setFillColor(sf::Color::Red);
 	enemy1.rect.setPosition(1000, 700);
 	enemy1.spritexStart = 32 * 10;
 	enemy1.spriteyStart = 32 * 0;
 	enemyArray.push_back(enemy1); // enemy type 1
-
+	*/
 	enemy2.sprite.setTexture(textureEnemy2);
 	enemy2.text.setFont(font);
 	enemy2.text.setCharacterSize(15);
-	enemy2.text.setFillColor(sf::Color::Red);
+	enemy2.text.setFillColor(sf::Color::White);
 	enemy2.rect.setPosition(1000, 800);
 	enemy2.spritexStart = 32 * 7;
 	enemy2.spriteyStart = 32 * 0;
 	enemyArray2.push_back(enemy2); // enemy type 2
 
-	enemy1.sprite.setTexture(textureEnemy);
-	enemy1.text.setFont(font);
-	enemy1.text.setCharacterSize(15);
-	enemy1.text.setFillColor(sf::Color::Red);
-	enemy1.rect.setPosition(800, 300);
-	enemy1.spritexStart = 32 * 10;
-	enemy1.spriteyStart = 32 * 0;
-	enemyArray.push_back(enemy1); // enemy type 1 
-
-	enemy3.sprite.setTexture(textureEnemy3);
-	enemy3.text.setFont(font);
-	enemy3.text.setCharacterSize(15);
-	enemy3.text.setFillColor(sf::Color::Red);
-	enemy3.rect.setPosition(800, 300);
-	enemy3.spritexStart = 32 * 4;
-	enemy3.spriteyStart = 32 * 0;
-	enemyArray3.push_back(enemy3); // enemy type 3
-
-
-								   // North map enemies - 2 enemies
 	enemy2.sprite.setTexture(textureEnemy2);
 	enemy2.text.setFont(font);
 	enemy2.text.setCharacterSize(15);
-	enemy2.text.setFillColor(sf::Color::Red);
-	enemy2.rect.setPosition(300, 400);
+	enemy2.text.setFillColor(sf::Color::White);
+	enemy2.rect.setPosition(800, 300);
 	enemy2.spritexStart = 32 * 7;
 	enemy2.spriteyStart = 32 * 0;
 	enemyArray2.push_back(enemy2); // enemy type 2
@@ -695,46 +678,76 @@ int main() {
 	enemy3.sprite.setTexture(textureEnemy3);
 	enemy3.text.setFont(font);
 	enemy3.text.setCharacterSize(15);
-	enemy3.text.setFillColor(sf::Color::Red);
+	enemy3.text.setFillColor(sf::Color::White);
+	enemy3.rect.setPosition(800, 300);
+	enemy3.spritexStart = 32 * 4;
+	enemy3.spriteyStart = 32 * 0;
+	enemyArray3.push_back(enemy3); // enemy type 3
+
+	
+	// North map enemies - 2 enemies
+	enemy2.sprite.setTexture(textureEnemy2);
+	enemy2.text.setFont(font);
+	enemy2.text.setCharacterSize(15);
+	enemy2.text.setFillColor(sf::Color::White);
+	enemy2.rect.setPosition(300, 400);
+	enemy2.spritexStart = 32 * 7;
+	enemy2.spriteyStart = 32 * 0;
+	enemyArray2.push_back(enemy2); // enemy type 2
+		
+	enemy3.sprite.setTexture(textureEnemy3);
+	enemy3.text.setFont(font);
+	enemy3.text.setCharacterSize(15);
+	enemy3.text.setFillColor(sf::Color::White);
 	enemy3.rect.setPosition(100, 400);
 	enemy3.spritexStart = 32 * 4;
 	enemy3.spriteyStart = 32 * 0;
 	enemyArray3.push_back(enemy3); // enemy type 3
-
-								   // North upper map - 3 enemies
+	
+	// North upper map - 3 enemies
 	enemy1.sprite.setTexture(textureEnemy);
-	enemy1.text.setFont(font);
+	enemy1.text.setFont(font);  
 	enemy1.text.setCharacterSize(15);
-	enemy1.text.setFillColor(sf::Color::Red);
+	enemy1.text.setFillColor(sf::Color::White);
 	enemy1.rect.setPosition(450, -15);
 	enemy1.spritexStart = 32 * 10;
 	enemy1.spriteyStart = 32 * 0;
 	enemyArray.push_back(enemy1); // enemy type 1 
+	
+
+	enemy2.sprite.setTexture(textureEnemy2);
+	enemy2.text.setFont(font);
+	enemy2.text.setCharacterSize(15);
+	enemy2.text.setFillColor(sf::Color::White);
+	enemy2.rect.setPosition(400, -10);
+	enemy2.spritexStart = 32 * 7;
+	enemy2.spriteyStart = 32 * 0;
+	enemyArray2.push_back(enemy2); // enemy type 2
 
 	enemy3.sprite.setTexture(textureEnemy3);
 	enemy3.text.setFont(font);
 	enemy3.text.setCharacterSize(15);
-	enemy3.text.setFillColor(sf::Color::Red);
-	enemy3.rect.setPosition(400, -10);
-	enemy3.spritexStart = 32 * 4;
-	enemy3.spriteyStart = 32 * 0;
-	enemyArray3.push_back(enemy3); // enemy type 3
-
-	enemy3.sprite.setTexture(textureEnemy3);
-	enemy3.text.setFont(font);
-	enemy3.text.setCharacterSize(15);
-	enemy3.text.setFillColor(sf::Color::Red);
+	enemy3.text.setFillColor(sf::Color::White);
 	enemy3.rect.setPosition(450, -15);
 	enemy3.spritexStart = 32 * 4;
 	enemy3.spriteyStart = 32 * 0;
 	enemyArray3.push_back(enemy3); // enemy type 3
-								   //-----------------------------------------------------------------------------------------------------------------------------------------					  
+	//-----------------------------------------------------------------------------------------------------------------------------------------					  
 
+	
+	//--------------------------------------------------------------------------------------------------------------------------------------
+	//Cuong 05/10
+	// Text Vector Array
+	vector<textDisplay>::const_iterator iter8;
+	vector<textDisplay> textDisplayArray;
 
+	// Text Display Object
+	class textDisplay textDisplay1;
+	textDisplay1.text.setFont(font);
+	//----------------------------------------------------------------------------------------------------------------------------------------
 
-
-
-
+	//Cuong
+	//projectile vector 
 	vector<projectile>::const_iterator iter;
 	vector<projectile> projectileArray;
 	class projectile projectile1;
@@ -1430,21 +1443,83 @@ int main() {
 		sf::Time elapsed3 = clock3.getElapsedTime();
 		sf::Time elapsed4 = clock4.getElapsedTime();
 
+		//Cuong 05/10
+		//---------------------------------------------------------------------------------------------------------------------
 		// Enemy type 1 Chasing (AI) at Beginning (Boss)
 		counter = 0;
 		for (iter4 = enemyArray.begin(); iter4 != enemyArray.end(); iter4++)
 		{
 			if (enemyArray[counter].chase == true)
-				if (elapsed2.asSeconds() >= 0.5) //Changed to .5 on 04/01
+			//{
+				if (elapsed3.asSeconds() >= 1) //change 0.5 to 1
 				{
-					clock2.restart();
+					clock3.restart();
 					int tempRand = generateRandom(3);
-					//Added 04/01
-					if (tempRand == 1) // Enemy Chases Player
+				
+					if (tempRand == 1) // Enemy type 1 fire projectile and  Chases Player
 					{
 						projectile1.attackDamage = enemyArray[counter].attackDamage;
+					
+						// Player to Left
+						if ((player.body.getPosition().x < enemyArray[counter].rect.getPosition().x) && (abs(player.body.getPosition().y - enemyArray[counter].rect.getPosition().y) <= 40)) 
+						{
+							
+							projectile1.enemyProjectile = true;
+							projectile1.direction = 3;
+							projectile1.rect.setPosition(enemyArray[counter].rect.getPosition().x -15 + enemyArray[counter].rect.getSize().x / 2 - projectile1.rect.getSize().x / 2, enemyArray[counter].rect.getPosition().y - 15 + enemyArray[counter].rect.getSize().y / 2 - projectile1.rect.getSize().y / 2);
+							projectileArray.push_back(projectile1);
+							projectile1.enemyProjectile = false;
+
+							enemyArray[counter].direction = 3;
+						}
+
+						// Player to Right
+						if ((player.body.getPosition().x > enemyArray[counter].rect.getPosition().x) && (abs(player.body.getPosition().y - enemyArray[counter].rect.getPosition().y) <= 40))
+						{
+							
+							projectile1.enemyProjectile = true;
+							projectile1.direction = 4;
+							//projectile1.rect.setPosition(enemyArray[counter].rect.getPosition().x + enemyArray[counter].rect.getSize().x / 2 - projectile1.rect.getSize().x / 2, enemyArray[counter].rect.getPosition().y + enemyArray[counter].rect.getSize().y / 2 - projectile1.rect.getSize().y / 2);
+							projectile1.rect.setPosition(enemyArray[counter].rect.getPosition().x - 15 + enemyArray[counter].rect.getSize().x / 2 - projectile1.rect.getSize().x / 2, enemyArray[counter].rect.getPosition().y - 15 + enemyArray[counter].rect.getSize().y / 2 - projectile1.rect.getSize().y / 2);
+
+							projectileArray.push_back(projectile1);
+							projectile1.enemyProjectile = false;
+
+							enemyArray[counter].direction = 4;
+						}
+
+						// Player to Top
+						if ((player.body.getPosition().y < enemyArray[counter].rect.getPosition().y) && (abs(player.body.getPosition().x - enemyArray[counter].rect.getPosition().x) <= 40))
+						{
+							
+							projectile1.enemyProjectile = true;
+							projectile1.direction = 1;
+							//projectile1.rect.setPosition(enemyArray[counter].rect.getPosition().x + enemyArray[counter].rect.getSize().x / 2 - projectile1.rect.getSize().x / 2, enemyArray[counter].rect.getPosition().y + enemyArray[counter].rect.getSize().y / 2 - projectile1.rect.getSize().y / 2);
+							projectile1.rect.setPosition(enemyArray[counter].rect.getPosition().x - 10 + enemyArray[counter].rect.getSize().x / 2 - projectile1.rect.getSize().x / 2, enemyArray[counter].rect.getPosition().y - 15 + enemyArray[counter].rect.getSize().y / 2 - projectile1.rect.getSize().y / 2);
+
+							projectileArray.push_back(projectile1);
+							projectile1.enemyProjectile = false;
+
+							enemyArray[counter].direction = 1;
+						}
+
+						// Player to Bottom
+						if ((player.body.getPosition().y > enemyArray[counter].rect.getPosition().y) && (abs(player.body.getPosition().x - enemyArray[counter].rect.getPosition().x) <= 40))
+						{
+							
+							projectile1.enemyProjectile = true;
+							projectile1.direction = 2;
+							//projectile1.rect.setPosition(enemyArray[counter].rect.getPosition().x + enemyArray[counter].rect.getSize().x / 2 - projectile1.rect.getSize().x / 2, enemyArray[counter].rect.getPosition().y + enemyArray[counter].rect.getSize().y / 2 - projectile1.rect.getSize().y / 2);
+							projectile1.rect.setPosition(enemyArray[counter].rect.getPosition().x - 15 + enemyArray[counter].rect.getSize().x / 2 - projectile1.rect.getSize().x / 2, enemyArray[counter].rect.getPosition().y - 15 + enemyArray[counter].rect.getSize().y / 2 - projectile1.rect.getSize().y / 2);
+
+							projectileArray.push_back(projectile1);
+							projectile1.enemyProjectile = false;
+
+							enemyArray[counter].direction = 2;
+						}
+
 					}
-					if (tempRand == 2)
+					else if (tempRand == 2)
 					{
 						if (player.body.getPosition().y < enemyArray[counter].rect.getPosition().y)
 						{
@@ -1480,21 +1555,26 @@ int main() {
 						else if (player.body.getPosition().y > enemyArray[counter].rect.getPosition().y)
 						{
 							enemyArray[counter].direction = 2;
-						}
+						//}
 					}
 				}
+			}
 			counter++;
 		}
-
-		//---------------------------------------------------------------------------
+		//-------------------------------------------------------------------------------------------------------------------------------------------
+		// end
+		
+		
+		
 		// Enemy type 2 Chasing (AI) if get shot
 		counter = 0;
 		for (iter4 = enemyArray2.begin(); iter4 != enemyArray2.end(); iter4++)
 		{
 			if (elapsed3.asSeconds() >= 0.5) //Changed to .5 on 04/01
-			{
-				if (enemyArray2[counter].aggroed == true)
 				{
+					if (enemyArray2[counter].aggroed == true)
+					{
+
 					clock3.restart();
 					int tempRand = generateRandom(3);
 					//Added 04/01
@@ -1546,6 +1626,10 @@ int main() {
 		}
 
 		// Enemy type 3 Movement Randomly     4-19
+		
+		
+					
+		
 		//Cuong
 		//Projectiles colliding with enemies type 1  3/31
 		counter = 0;
@@ -1558,6 +1642,15 @@ int main() {
 				{
 					cout << "bullet collision with enemy" << endl;
 					projectileArray[counter].destroy = true;
+
+					//Cuong 05/10
+					// Text blood Display
+					//----------------------------------------------------------------------------------------------
+					textDisplay1.text.setString(to_string(projectileArray[counter].attackDamage));
+					textDisplay1.text.setPosition(enemyArray[counter2].rect.getPosition().x + enemyArray[counter2].rect.getSize().x / 2, enemyArray[counter2].rect.getPosition().y - enemyArray[counter2].rect.getSize().y / 2);
+					textDisplayArray.push_back(textDisplay1);
+					//----------------------------------------------------------------------------------------------
+
 					enemyArray[counter2].hp1 -= projectileArray[counter].attackDamage;
 					if (enemyArray[counter2].hp1 <= 0)
 					{
@@ -1565,16 +1658,14 @@ int main() {
 					}
 					// Chasing
 					enemyArray[counter2].chase = true;
-
 				}
-
 				counter2++;
-
 			}
 			counter++;
 		}
 		//--------------------------------------------------------------------------------------------------------------------
 
+		
 		//Cuong
 		//Projectiles colliding with enemies type 2 
 		counter = 0;
@@ -1587,6 +1678,13 @@ int main() {
 				{
 					cout << "bullet collision with enemy" << endl;
 					projectileArray[counter].destroy = true;
+
+					//Cuong 05/10
+					// Blood Text Display
+					textDisplay1.text.setString(to_string(projectileArray[counter].attackDamage));
+					textDisplay1.text.setPosition(enemyArray2[counter2].rect.getPosition().x + enemyArray2[counter2].rect.getSize().x / 2, enemyArray2[counter2].rect.getPosition().y - enemyArray2[counter2].rect.getSize().y / 2);
+					textDisplayArray.push_back(textDisplay1);
+
 					enemyArray2[counter2].hp2 -= projectileArray[counter].attackDamage;
 					if (enemyArray2[counter2].hp2 <= 0)
 					{
@@ -1611,25 +1709,72 @@ int main() {
 				{
 					cout << "bullet collision with enemy" << endl;
 					projectileArray[counter].destroy = true;
+					
+					//Cuong 05/10
+					// Blood Text Display
+					textDisplay1.text.setString(to_string(projectileArray[counter].attackDamage));
+					textDisplay1.text.setPosition(enemyArray3[counter2].rect.getPosition().x + enemyArray3[counter2].rect.getSize().x / 2, enemyArray3[counter2].rect.getPosition().y - enemyArray3[counter2].rect.getSize().y / 2);
+					textDisplayArray.push_back(textDisplay1);
+
 					enemyArray3[counter2].hp3 -= projectileArray[counter].attackDamage;
-					if (enemyArray3[counter2].hp3 <= 0)
+					if (enemyArray3[counter2].hp3 <= 0) 
 					{
 						enemyArray3[counter2].alive = false;
 					}
+					
 				}
 				counter2++;
 			}
 			counter++;
 		}
-
 		//-------------------------------------------------------------------------------------------------------
-		//Miguel					4/7/17
-		//Enemy Player Collision
+		
+		//--------------------------------------------------------------------------------------------------------------------------------
+		//Cuong 05/10
+		//Enemy boss fire projectile collides Player 
+
 		counter = 0;
+		for (iter = projectileArray.begin(); iter != projectileArray.end(); iter++)
+		{
+			
+			if (projectileArray[counter].enemyProjectile == true)
+			{
+				if (projectileArray[counter].rect.getGlobalBounds().intersects(player.body.getGlobalBounds()))
+				{
+					//Cuong 05/10
+					 //Text Display
+					textDisplay1.text.setString(to_string(enemyArray[counter].attackDamage));
+					textDisplay1.text.setPosition(player.body.getPosition().x + player.body.getSize().x / 2, player.body.getPosition().y - player.body.getSize().y / 2);
+					textDisplayArray.push_back(textDisplay1);
+
+					player.health -= enemy1.enemyAttackDamage1;
+					if (player.health <= 0) {
+						player.health = 0;
+					}
+					projectileArray[counter].destroy = true;
+					cout << "Enemy1 attacked Player by: " << player.health << " damage!" << endl;
+					}
+				//projectileArray[counter].destroy = true;
+			}
+			counter++;
+		}
+		//-------------------------------------------------------------------------------------------------------------------------------------------
+		
+
+		//Enemy collides Player by touching
+
+		counter = 0;
+
 		for (iter4 = enemyArray.begin(); iter4 != enemyArray.end(); iter4++)
 		{
 			if (player.body.getGlobalBounds().intersects(enemyArray[counter].rect.getGlobalBounds()))
 			{
+				//Cuong 05/10
+				// Text Display
+				textDisplay1.text.setString(to_string(enemyArray[counter].attackDamage));
+				textDisplay1.text.setPosition(player.body.getPosition().x + player.body.getSize().x / 2, player.body.getPosition().y - player.body.getSize().y / 2);
+				textDisplayArray.push_back(textDisplay1);
+
 				player.health -= enemy1.enemyAttackDamage1;
 				if (player.health <= 0) {
 					player.health = 0;
@@ -1638,12 +1783,22 @@ int main() {
 			}
 			counter++;
 		}
+		
+
+
+		
 
 		counter = 0;
 		for (iter4 = enemyArray2.begin(); iter4 != enemyArray2.end(); iter4++)
 		{
 			if (player.body.getGlobalBounds().intersects(enemyArray2[counter].rect.getGlobalBounds()))
 			{
+				//Cuong 05/10
+				// Text Display
+				textDisplay1.text.setString(to_string(enemyArray2[counter].attackDamage));
+				textDisplay1.text.setPosition(player.body.getPosition().x + player.body.getSize().x / 2, player.body.getPosition().y - player.body.getSize().y / 2);
+				textDisplayArray.push_back(textDisplay1);
+
 				player.health -= enemy2.enemyAttackDamage2;
 				if (player.health <= 0) {
 					player.health = 0;
@@ -1658,6 +1813,13 @@ int main() {
 		{
 			if (player.body.getGlobalBounds().intersects(enemyArray3[counter].rect.getGlobalBounds()))
 			{
+
+				//Cuong 05/10
+				// Text Display
+				textDisplay1.text.setString(to_string(enemyArray3[counter].attackDamage));
+				textDisplay1.text.setPosition(player.body.getPosition().x + player.body.getSize().x / 2, player.body.getPosition().y - player.body.getSize().y / 2);
+				textDisplayArray.push_back(textDisplay1);
+
 				player.health -= enemy2.enemyAttackDamage3;
 				if (player.health <= 0) {
 					player.health = 0;
@@ -1666,7 +1828,7 @@ int main() {
 			}
 			counter++;
 		}
-
+		
 		//Cuong
 		//Projectile Wall Collision
 		counter = 0;
@@ -1769,6 +1931,23 @@ int main() {
 			counter++;
 		}
 
+		//-----------------------------------------------------------------------------------------------
+		//Cuong 05/10
+		// Delete Text Display
+		counter = 0;
+		for (iter8 = textDisplayArray.begin(); iter8 != textDisplayArray.end(); iter8++)
+		{
+			if (textDisplayArray[counter].destroy == true)
+			{
+				textDisplayArray.erase(iter8);
+				break;
+			}
+
+			counter++;
+		}
+		//------------------------------------------------------------------------------------------------------------
+		
+		
 		//Cuong
 		// Draw Projectiles
 		counter = 0;
@@ -1794,7 +1973,7 @@ int main() {
 		counter = 0;
 		for (iter4 = enemyArray.begin(); iter4 != enemyArray.end(); iter4++)
 		{
-			enemyArray[counter].text.setString("blood " + to_string(enemyArray[counter].hp1) + "/" + to_string(enemyArray[counter].maxhp1));
+			enemyArray[counter].text.setString("    " + to_string(enemyArray[counter].hp1) + "/" + to_string(enemyArray[counter].maxhp1));
 			window.draw(enemyArray[counter].text);
 			counter++;
 		}
@@ -1813,7 +1992,7 @@ int main() {
 		counter = 0;
 		for (iter4 = enemyArray2.begin(); iter4 != enemyArray2.end(); iter4++)
 		{
-			enemyArray2[counter].text.setString("blood " + to_string(enemyArray2[counter].hp2) + "/" + to_string(enemyArray2[counter].maxhp2));
+			enemyArray2[counter].text.setString("      " + to_string(enemyArray2[counter].hp2) + "/" + to_string(enemyArray2[counter].maxhp2));
 			window.draw(enemyArray2[counter].text);
 			counter++;
 		}
@@ -1832,10 +2011,11 @@ int main() {
 		counter = 0;
 		for (iter4 = enemyArray3.begin(); iter4 != enemyArray3.end(); iter4++)
 		{
-			enemyArray3[counter].text.setString("blood " + to_string(enemyArray3[counter].hp3) + "/" + to_string(enemyArray3[counter].maxhp3));
+			enemyArray3[counter].text.setString("      " + to_string(enemyArray3[counter].hp3) + "/" + to_string(enemyArray3[counter].maxhp3));
 			window.draw(enemyArray3[counter].text);
 			counter++;
 		}
+		//-------------------------------------------------------------------------------------------------------------
 		//-------------------------------------------------------------------------------------------------------------
 
 		//Miguel Draw Resources
@@ -1900,6 +2080,19 @@ int main() {
 		window.draw(textAmmo6);
 		window.draw(textAmmo7);
 
+		//----------------------------------------------------------------------------------------------------------------------- 
+		//Cuong 05/10
+		// Draw Text blood
+		counter = 0;
+		for (iter8 = textDisplayArray.begin(); iter8 != textDisplayArray.end(); iter8++)
+		{
+			textDisplayArray[counter].update();
+			window.draw(textDisplayArray[counter].text);
+
+			counter++;
+		}
+		//-----------------------------------------------------------------------------------------------------------------------
+		
 		//displaying Escape Menu
 		if (exitgame == 1) window.draw(graphics.menuImage);
 		else	graphics.menuImage.setTexture(&graphics.menuTexture);
