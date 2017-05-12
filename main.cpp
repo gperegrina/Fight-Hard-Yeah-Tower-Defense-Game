@@ -38,6 +38,7 @@ int main() {
 	sf::Clock clock4;
 
 	int tower_attack = 0;
+	int shade_big = 0;
 
 	//Player character texture, rectangle bound to box
 	sf::Texture playerTexture;
@@ -529,7 +530,7 @@ int main() {
 	resource1.resource5 = false;
 	resource1.resource6 = true;
 	resource1.resource7 = false;
-	textureResource6.loadFromFile("res3.png");
+	textureResource6.loadFromFile("res_torch.png");
 	resource1.rect.setTexture(&textureResource6);
 	resource1.rect.setPosition(630, 650);
 	resourceArray.push_back(resource1);
@@ -1307,6 +1308,9 @@ int main() {
 				}
 				if (resourceArray[counter].resource6 == true) //resource 6
 				{
+					std::cout << "resource: torch" << std::endl;
+					shade_big = 1;
+
 					player.ammo += 2;
 					totalAmmo.str("");
 					totalAmmo << "Ammo: " << player.ammo;
@@ -1351,7 +1355,11 @@ int main() {
 		//Player shaded area location
 		int temp = player.playerposx;
 		int temp2 = player.playerposy;
-		graphics.playerShade.setPosition(temp - 950.0f, temp2 - 520.0f);
+		if (shade_big == 0) {
+			graphics.playerShade.setPosition(temp - 950.0f, temp2 - 520.0f);
+		}
+		else
+			graphics.playerShadeBig.setPosition(temp - 950.0f, temp2 - 520.0f);
 
 		//if (player.ammo < 3)
 		//	graphics.playerShadeTexture.loadFromFile("shade_black_big.png");
@@ -1865,6 +1873,8 @@ int main() {
 				textScore6.setString(totalScore.str());
 				textScore7.setString(totalScore.str());
 				cout << "Enemy1 was killed" << endl;
+				audio.enemyDeath.play();
+
 				enemyArray.erase(iter4);
 				break;
 			}
@@ -1888,6 +1898,8 @@ int main() {
 				textScore6.setString(totalScore.str());
 				textScore7.setString(totalScore.str());
 				cout << "Enemy2 was killed" << endl;
+				audio.enemyDeath.play();
+
 				enemyArray2.erase(iter4);
 				break;
 			}
@@ -1911,6 +1923,8 @@ int main() {
 				textScore6.setString(totalScore.str());
 				textScore7.setString(totalScore.str());
 				cout << "Enemy3 was killed" << endl;
+				audio.enemyDeath.play();
+
 				enemyArray3.erase(iter4);
 				break;
 			}
@@ -2044,7 +2058,11 @@ int main() {
 		window.draw(graphics.tower3);
 
 		//Drawing player shade region
-		window.draw(graphics.playerShade);
+		if (shade_big == 0) {
+			window.draw(graphics.playerShade);
+		}
+		else
+			window.draw(graphics.playerShadeBig);
 
 		//Miguel draw Health Bar		4/2/17-4/7/17
 		window.draw(text);

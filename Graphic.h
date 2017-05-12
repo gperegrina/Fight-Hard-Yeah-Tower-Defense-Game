@@ -55,6 +55,9 @@ public:
 	//-----Shaded---------------//
 	sf::RectangleShape playerShade;
 	sf::Texture playerShadeTexture;
+	//-----Shaded Big----------//
+	sf::RectangleShape playerShadeBig;
+	sf::Texture playerShadeTextureBig;
 
 	//-----Menu-----------------//
 	sf::RectangleShape menuImage;

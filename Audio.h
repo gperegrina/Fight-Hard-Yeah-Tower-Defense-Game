@@ -27,5 +27,9 @@ public:
 
 	sf::Music backgroundmusic1;
 
+
+	sf::Sound enemyDeath;
+	sf::SoundBuffer enemyDeathBuffer;
+
 };
 

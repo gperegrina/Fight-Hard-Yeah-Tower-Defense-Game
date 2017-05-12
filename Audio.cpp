@@ -29,6 +29,11 @@ Audio::Audio()
 	gunPickupSound.setBuffer(gunPickupBuffer);
 	gunPickupSound.setVolume(80);
 
+	if (!enemyDeathBuffer.loadFromFile("death.wav"))
+		std::cout << "Unable to load death sound" << std::endl;
+	enemyDeath.setBuffer(enemyDeathBuffer);
+	enemyDeath.setVolume(80);
+
 	//Loading in sound for Background Music
 	if (!backgroundmusic1.openFromFile("silent_hill.wav"))
 		std::cout << "Unable to load Music" << std::endl;

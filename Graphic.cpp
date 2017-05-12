@@ -112,8 +112,14 @@ Graphic::Graphic()
 	//Player Shade
 	playerShade.setSize(sf::Vector2f(1920.0f, 1080.0f));
 	playerShade.setPosition(-720.0f, 0.0f);
-	playerShadeTexture.loadFromFile("shade_black2.png");
+	playerShadeTexture.loadFromFile("shade_black.png");
 	playerShade.setTexture(&playerShadeTexture);
+
+	playerShadeBig.setSize(sf::Vector2f(1920.0f, 1080.0f));
+	playerShadeBig.setPosition(-720.0f, 0.0f);
+	playerShadeTextureBig.loadFromFile("shade_black_big.png");
+	playerShadeBig.setTexture(&playerShadeTextureBig);
+
 
 	//Menu Image
 	menuImage.setSize(sf::Vector2f(720.0f, 480.0f));
